@@ -1,0 +1,39 @@
+
+{
+  "name": "mega-honc",
+  "account_id": "38030859f8173f6380bfd83e9e5a46f5", // 👈 Replace this with your actual account ID
+  "main": "src/index.ts",
+  "compatibility_date": "2025-02-04",
+  "compatibility_flags": ["nodejs_compat"],
+
+
+  // Optional variables section
+  // "vars": {
+  //   "MY_VAR": "my-variable"
+  // },
+
+  // Example for KV namespaces if needed
+  // "kv_namespaces": [
+  //   {
+  //     "binding": "MY_KV_NAMESPACE",
+  //     "id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  //   }
+  // ],
+
+  // Example for R2 bucket if needed
+  // "r2_buckets": [
+  //   {
+  //     "binding": "MY_BUCKET",
+  //     "bucket_name": "my-bucket"
+  //   }
+  // ],
+
+  // If using AI bindings
+  // "ai": {
+  //   "binding": "AI"
+  // },
+
+  "observability": {
+    "enabled": true
+  }
+}
